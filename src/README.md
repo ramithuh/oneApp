@@ -1,2 +1,2 @@
 
-![alt text](one.jpg "Logo Title Text 1")
+![alt text](two.jpg "Logo Title Text 1")
