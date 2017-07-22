@@ -17,12 +17,15 @@
 
 
 ### Ballerina Helps Achieve this (backend)?
-#### Plus Points 👍
+#### Plus Points 👍 :)
 - We didn't need other third party apps for extracting data from Gmail, and Google Calendar 
 - 
 
 #### Negative Points 👎 (what we think)
 - Rather than throwing an error about unused imports, what we think is ballerina should effciently give a warning to the user, and shouldn't load that specific unused library to the RAM
+- IntelliJ IDEA plugin reported that there was an error with the source code **mistakenly**
+
+
 ![alt text](out1.png "ok")
 
 ![alt text](out.png "ok")
