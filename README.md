@@ -26,6 +26,6 @@
 - IntelliJ IDEA plugin reported that there was an error with the source code **mistakenly**
 
 
-![alt text](out1.png =50x20)
+![alt text](out1.png "ok" =50x20)
 ![alt text](error.png "ok")
 ![alt text](out.png "ok")
