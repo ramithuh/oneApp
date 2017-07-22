@@ -31,4 +31,3 @@
 
 ## Prototype
 ![alt text](out.png "ok")
-![alt text](1.png "ok")
