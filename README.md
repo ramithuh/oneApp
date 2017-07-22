@@ -7,6 +7,7 @@
 - modern cloud providers extract important data from emails,
 - **(example: they prompts the user to create an event if the email contains data about a particular event**
 - With the above feature we automatically add those events to our calandars. 
+
 ⚠️️ **Calander app depends on the phone/platform you're Using**
 **Because of the above reason based on the Device (out of many we have) there are many calanders availble**
 
