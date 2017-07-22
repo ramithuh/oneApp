@@ -1,0 +1,183 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>oneApp</title>
+        <link rel="icon" href="" type="image/png" sizes="16x16">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./plugins/Toastr/toastr.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/form-elements.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="./js/validator.js"></script>
+
+        <script type="text/javascript" src="./plugins/Toastr/toastr.min.js"></script>
+        <script>
+            $(function () {
+                toastr.options.positionClass = 'toast-top-center';
+            });
+        </script>
+
+        <script type="text/javascript" src="./plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    </head>
+
+        <body class="hold-transition skin-blue sidebar-mini" background="./images/background.jpeg">
+
+            <!--Menu bar-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="nav-inner"><img src="" height="35" /></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top content -->
+            <div class="top-content">
+
+                <div class="inner-bg">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-5 text">
+                                <h2 style="color: #000">Mate for Your Life</h2>
+                                <div class="para" style="color: #000">Get all your tasks,events notes to one place with few clicks</div>
+                            </div>
+
+                            <div class="col-md-1 middle-border"></div>
+                            <div class="col-md-1"></div>
+
+                            <div class="col-md-5">
+
+                                <div class="form-box">
+                                    <div class="form-top">
+                                        <div class="form-top-left">
+                                            <ul class="nav nav-pills">
+                                                <li class="active"><a href="#login" data-toggle="tab">Log in</a></li>
+                                                <li><a href="#register" data-toggle="tab">Register</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="form-bottom">
+                                        <div class="tab-content">
+                                            <div id="login" class="tab-pane fade in active">
+                                                <form class="login-form" role="form" method="POST" action="" data-toggle="validator">
+
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="email">Username</label>
+                                                        <input id="email" type="text" class="form-username form-control" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" data-pattern-error="Invalid email address" placeholder="E-mail..." required>
+                                                        <div class="help-block with-errors" style="color: #fff;"></div>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="password">Password</label>
+                                                        <input id="password" type="password" class="form-control form-password" placeholder="Password..." name="password" required>
+                                                        <div class="help-block with-errors" style="color: #fff;"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                    </div>
+                                                    
+                                                    <a href="welcome"><button type="submit" class="btn" style="height: 40px; line-height: 16px;">Log in</button></a>
+
+                                                    <div class="social-login" style="text-align: center;">
+                                                        <h3>Or log in with</h3>
+                                                        <div class="social-login-buttons">
+                                                            <a class="btn btn-link-1 btn-link-1-facebook" href="redirect/facebook">
+                                                                <i class="fa fa-facebook"></i>
+                                                            </a>
+                                                            <a class="btn btn-link-1 btn-link-1-google-plus" href="redirect/google">
+                                                                <i class="fa fa-google-plus"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                            <div id="register" class="tab-pane fade in">
+                                                <form class="registration-form" role="form" method="POST" action="" data-toggle="validator">
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label class="sr-only" for="f_name">First name</label>
+                                                                <input id="f_name" type="text" class="form-control form-first-name" name="f_name" placeholder="First name..." required>
+                                                                <div class="help-block with-errors" style="color: #fff;"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label class="sr-only" for="l_name">Last name</label>
+                                                                <input id="l_name" type="text" placeholder="Last name..." class="form-last-name form-control" name="l_name" required>
+                                                                <div class="help-block with-errors" style="color: #fff;"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="email">Email</label>
+                                                        <input type="text" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" data-pattern-error="Invalid email address" placeholder="Email..." class="form-email form-control" id="email" required>
+                                                        <div class="help-block with-errors" style="color: #fff;"></div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="password">Password</label>
+                                                        <input type="password" name="password" placeholder="Password..." pattern=".{6,}" data-pattern-error="The password must be at least 6 characters." class="form-password form-control" id="password" required>
+                                                        <div class="help-block with-errors" style="color: #fff;"></div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="password-confirm">Confirm Password</label>
+                                                        <input type="password" name="password_confirmation" placeholder="Confirm Password..." class="form-password form-control" id="password-confirm" data-match="#password" data-match-error="Password don't match" required>
+                                                        <div class="help-block with-errors" style="color: #fff;"></div>
+                                                    </div>
+
+                                                    <input type="hidden" name="token">
+                                                    
+                                                    <button type="submit" class="btn" style="height: 40px; line-height: 16px;">Sign me up</button>
+
+                                                    <div class="social-login" style="text-align: center;">
+                                                        <h3>Or register with</h3>
+                                                        <div class="social-login-buttons">
+                                                            <a class="btn btn-link-1 btn-link-1-facebook" href="redirect/facebook">
+                                                                <i class="fa fa-facebook"></i>
+                                                            </a>
+                                                            <a class="btn btn-link-1 btn-link-1-google-plus" href="redirect/google">
+                                                                <i class="fa fa-google-plus"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Footer -->
+                <footer>
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <div class="footer-border"></div>
+                                <p style="color: #000">Copyright &copy 2017 <strong>oneApp</strong> All Rights Reserved.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </body>
+</html>
