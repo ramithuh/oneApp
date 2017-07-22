@@ -11,7 +11,7 @@
 ⚠️️ **Calendar app depends on the phone/platform you're Using**
 **Because of the above reason based on the Device (out of many we have) there are many calendars availble**
 
-### Example of the platforms
+### Example of the platforms we're integrating
 ![alt text](https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico "Logo Title Text 1")
 ![alt text](https://outlook.live.com/owa/favicon.ico "Logo Title Text 1")
 
@@ -26,6 +26,6 @@
 - IntelliJ IDEA plugin reported that there was an error with the source code **mistakenly**
 
 
-![alt text](out1.png "ok")
+![alt text](out1.png "ok" =250x)
 
 ![alt text](out.png "ok")
