@@ -23,5 +23,6 @@
 
 #### Negative Points 👎 (what we think)
 - Rather than throwing an error about unused imports, what we think is ballerina should effciently give a warning to the user, and shouldn't load that specific unused library to the RAM
+![alt text](out1.png "ok")
 
 ![alt text](out.png "ok")
