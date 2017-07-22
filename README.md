@@ -22,8 +22,8 @@
 - 
 
 ### Negative Points 👎 (what we think)
-- Rather than throwing an error about unused imports, what we think is ballerina should effciently give a warning to the user, and shouldn't load that specific unused library to the RAM
-- IntelliJ IDEA plugin reported that there was an error with the source code **mistakenly**
+- Rather than throwing an error about unused imports, what we think is ballerina **should effciently give a warning to the user, and shouldn't load that specific unused library to the RAM**
+- **IntelliJ IDEA plugin reported that there was an error with the source code mistakenly**
 
 
 ![alt text](out1.png "ok")
