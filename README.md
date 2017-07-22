@@ -1,6 +1,6 @@
 # oneApp
-#### Mission 
-- To centralize scattered data across many platforms.
+### Mission 
+- To centralize personal Todo's, Events, Notes scattered data across many platforms.
 
 #### Problem we are addressing 
 - People tend to have a couple of email addresses on various cloud providers
